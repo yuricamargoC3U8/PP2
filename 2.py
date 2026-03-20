@@ -7,8 +7,8 @@ while True:
         break
     counter += 1
     sum += number
-print("A quantidade de numeros que voce digitou foi:{}".format(counter))
-print("A soma dos numeros que você digitou foi {}".format(sum))
+print("A quantidade de numeros que voce digitou foi: ", counter)
+print("A soma dos numeros que você digitou foi: ", sum)
 print("A média aritmética de todos os valores foi: ", sum / counter)
 if  sum >= 20:
     print("A quantidade de valores excede 20")

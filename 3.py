@@ -11,7 +11,8 @@ while True:
         reprovados += 1
     soma_nota = 0
     soma_nota += nota
-print("A quantidade de alunos que realizaram a prova foi: ", aprovados + reprovados)
+    total_alunos = aprovados + reprovados
+print("A quantidade de alunos que realizaram a prova foi: ", total_alunos)
 print("A quantidade de alunos que foram aprovados foi: ", aprovados)
 print("A quantidade de alunos que foram reprovados foi: ", reprovados)
-print("A média aritmética da nota dos alunos da turma foi: ", soma_nota / (aprovados + reprovados))
+print("A média aritmética da nota dos alunos da turma foi: ", soma_nota / total_alunos)
